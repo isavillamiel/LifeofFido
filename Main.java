@@ -5,10 +5,10 @@ public class Main {
         System.out.println("Hello World!");
         try {
             System.out.println("Please work :)");
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             System.out.println("Did it work?");
+        } finally {
+            System.out.println("Catch these hands tho");
         }
-
     }
 }
