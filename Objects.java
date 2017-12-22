@@ -38,7 +38,19 @@ public class Objects {
         }
     }
     public class cat{}
-    private class human{}
+    static public class human{
+        private String name;
+        private dog pup;
+        human(){
+            name = "player";
+        }
+        human(String name1){
+            name = name1;
+        }
+        // need assignment operator for the dog to go to player possession
+        human(dog doggie){
+        }
+    }
     public class kid extends human{}
 
 }
